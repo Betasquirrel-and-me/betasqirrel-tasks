@@ -2,6 +2,10 @@
 
 Assignments
 
+## Demo
+
+- [Live 🟢](https://betasquirrel-and-me.github.io/betasqirrel-tasks/)
+
 ## Tasks
 
 | Requirements                       | Output                 |
@@ -10,7 +14,9 @@ Assignments
 | ![task-2](images/requirement/task-2.jpg) | ![out2](images/out/tesk-2.png) |
 | ![task-4](images/requirement/task-4.jpg) | ![out4](images/out/tesk-4.png) |
 
-### Reading Tasks
+## Task 3
+
+Read the below links and attend exercises.
 
 - [Home](https://www.w3schools.com/html/default.asp)
 - [Introduction](https://www.w3schools.com/html/html_intro.asp)
@@ -39,3 +45,31 @@ Assignments
 - [colspan](https://www.w3schools.com/html/html_table_colspan_rowspan.asp)
 - [styling](https://www.w3schools.com/html/html_table_styling.asp)
 - [colgroup](https://www.w3schools.com/html/html_table_colgroup.asp)
+
+## Linux Commands
+
+- `cd` - Change current directory. Ex: `cd Desktop`, `cd ..`
+- `ls` - List contents of a directory. Ex: `ls -a` lists hidden files as well.
+- `pwd` - Display current working directory path.
+- `cat` - Display contents of a file. Ex: `cat README.md`
+
+## Git Commands
+
+1. `git config` - Configure git user. Ex: `git config --global user.name "Afsal-Palliyal"`, `git config  --global user.email "palliyalafsal@gmail.com"`
+2. `git clone` - Clone a remote git repo to your local. Ex: `git clone https://github.com/Afsal-Palliyal/betasquirrel-tasks.git`, `git clone https://github.com/Afsal-Palliyal/betasquirrel-tasks.git new-folder`
+3. `git add` - Add your file changes to git. Ex: `git add .`, `git add README.md`
+4. `git commit` - Commit changes to git. Ex: `git commit -m "Initial commit"
+5. `git push` - Push your local commits to remote repo. Ex: `git push origin main`
+6. `git pull` - Pull updates your current local working branch. Ex: `git pull new-folder`
+
+## Task 5
+
+- [HTML Favicon](https://www.w3schools.com/html/html_favicon.asp)
+- [HTML Tables](https://www.w3schools.com/html/html_tables.asp)
+- [HTML Table Borders](https://www.w3schools.com/html/html_table_borders.asp)
+- [HTML Table Sizes](https://www.w3schools.com/html/html_table_sizes.asp)
+- [HTML Table Headers](https://www.w3schools.com/html/html_table_headers.asp)
+- [HTML Table Padding & Spacing](https://www.w3schools.com/html/html_table_padding_spacing.asp)
+- [HTML Table Colspan & Rowspan](https://www.w3schools.com/html/html_table_colspan_rowspan.asp)
+- [HTML Table Styling](https://www.w3schools.com/html/html_table_styling.asp)
+- [HTML Table Colgroup](https://www.w3schools.com/html/html_table_colgroup.asp)
