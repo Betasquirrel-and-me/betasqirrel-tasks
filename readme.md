@@ -6,9 +6,9 @@ Assignments
 
 | Requirements                       | Output                 |
 | ---------------------------------- | ---------------------- |
-| ![task-1](images/requirement/task-1.jpeg) | ![out1](images/out/tesk-1.png) |
-| ![task-2](images/requirement/task-2.jpeg) | ![out2](images/out/tesk-2.png) |
-| ![task-4](images/requirement/task-4.jpeg) | ![out4](images/out/tesk-4.png) |
+| ![task-1](images/requirement/task-1.jpg) | ![out1](images/out/tesk-1.png) |
+| ![task-2](images/requirement/task-2.jpg) | ![out2](images/out/tesk-2.png) |
+| ![task-4](images/requirement/task-4.jpg) | ![out4](images/out/tesk-4.png) |
 
 ### Reading Tasks
 
