@@ -1,0 +1,9 @@
+[submodule "2nd-website"]
+	path = 2nd-website
+	url = https://github.com/Betasquirrel-and-me/2nd-website
+[submodule "first-web-with-html-css"]
+	path = first-web-with-html-css
+	url = https://github.com/Betasquirrel-and-me/first-web-with-html-css
+[submodule "3nd-website"]
+	path = 3nd-website
+	url = https://github.com/Betasquirrel-and-me/3nd-website
