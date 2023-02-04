@@ -6,7 +6,4 @@
 	url = https://github.com/Betasquirrel-and-me/2nd-website.git
 [submodule "Task-4"]
 	path = Task-4
-	url = https://github.com/Betasquirrel-and-me/3nd-website
-[submodule "Task-3"]
-	path = Task-3
 	url = https://github.com/Betasquirrel-and-me/3nd-website.git
