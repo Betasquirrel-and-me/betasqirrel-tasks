@@ -8,8 +8,8 @@ Assignments
 
 ## Tasks
 
-| Requirements                       | Output                 |
-| ---------------------------------- | ---------------------- |
+| Requirements                             | Output                         |
+| ---------------------------------------- | ------------------------------ |
 | ![task-1](images/requirement/task-1.jpg) | ![out1](images/out/tesk-1.png) |
 | ![task-2](images/requirement/task-2.jpg) | ![out2](images/out/tesk-2.png) |
 | ![task-4](images/requirement/task-4.jpg) | ![out4](images/out/tesk-4.png) |
@@ -48,15 +48,19 @@ Read the below links and attend exercises.
 
 ## Linux Commands
 
-- `cd` - Change current directory. Ex: `cd Desktop`, `cd ..`
-- `ls` - List contents of a directory. Ex: `ls -a` lists hidden files as well.
-- `pwd` - Display current working directory path.
-- `cat` - Display contents of a file. Ex: `cat README.md`
+- `cd` - enter to directory. Ex: `cd file name`
+- `cd --` - back from floder to directory. Ex: `cd --file name`
+- `ls` - show files in directory.
+- `ls -a` - show hidden files in directory.
+- `pwd` - show current working directory.
+- `cat` - show contents in file. Ex: `cat filename`
+- `mkdir` - to create a folder in directory ex:`mkdir folder name`
+- `rm -rf` - remove folder in directory Ex:`rm -rf folder name`
 
 ## Git Commands
 
-1. `git config` - Configure git user. Ex: `git config --global user.name "Afsal-Palliyal"`, `git config  --global user.email "palliyalafsal@gmail.com"`
-2. `git clone` - Clone a remote git repo to your local. Ex: `git clone https://github.com/Afsal-Palliyal/betasquirrel-tasks.git`, `git clone https://github.com/Afsal-Palliyal/betasquirrel-tasks.git new-folder`
+1. `git config` - Configure git user. Ex: `git config --global user.name "aman-mohammed-max"`, `git config  --global user.email "unkown@email.com"`
+2. `git clone` - Clone a remote git repo to your local. Ex: `git clone https://github.com/aman-mohammed-max/betasquirrel-tasks.git`, `git clone https://github.com/aman-mohammed-max/betasquirrel-tasks.git new-folder`
 3. `git add` - Add your file changes to git. Ex: `git add .`, `git add README.md`
 4. `git commit` - Commit changes to git. Ex: `git commit -m "Initial commit"
 5. `git push` - Push your local commits to remote repo. Ex: `git push origin main`
