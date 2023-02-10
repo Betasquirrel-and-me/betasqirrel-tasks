@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #625c5c;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 17px;
+  border-bottom: 1px solid #ececec;
+}
+
+header div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+#avatar {
+  --avatar-size: 60px;
+  width: var(--avatar-size);
+  height: var(--avatar-size);
+  border-radius: 50%;
+}
+
+#logo {
+  --logo-size: 50px;
+  width: var(--logo-size);
+  height: var(--logo-size);
+}
+
+#main-body {
+  background-color: #ececec;
+  width: 100%;
+  height: calc(100vh - 10.4vh);
+  display: flex;
+}
+
+#left-side {
+  height: calc(100% - 40px);
+  width: 13%;
+  background-color: #625c5c;
+  color: #fff;
+  padding: 20px 30px;
+}
+
+#left-side p {
+  text-decoration: underline;
+}
+
+#left-side p::first-letter {
+  text-transform: uppercase;
+}
+
+#left-side-title {
+  text-transform: uppercase;
+  margin: 0;
+  color: #40b286;
+}
+
+#data-bar {
+  width: calc(100% - 20px);
+  height: calc(100% - 30px);
+  padding: 15px 10px;
+}
+
+#data-bar h3 {
+  margin: 10px 8px;
+  text-decoration: underline;
+}
+
+#topdiv {
+  display: flex;
+  width: 100%;
+  height: 25%;
+}
+
+.boxss {
+  width: calc(100% / 4);
+  height: 100%;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  margin: 5px;
+}
+
+.too {
+  font-size: 1.5em;
+  color: #ececec;
+}
+
+#bottomdiv {
+  display: flex;
+  padding: calc(18% / 2) 10px;
+}
+
+.j {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ececec;
+  justify-content: center;
+}
+
+.j p {
+  margin: 0;
+}
+
+#q {
+  --cl-size: 300px;
+  height: var(--cl-size);
+  width: var(--cl-size);
+  margin: 0 30px;
+}
+
+.a {
+  width: calc(var(--cl-size) - 30%);
+  height: calc(var(--cl-size) - 30%);
+  background-color: #0ace82;
+}
+
+.b {
+  width: calc(var(--cl-size) - 10%);
+  height: calc(var(--cl-size) - 10%);
+  background-color: #f5f5f5;
+}
+
+.c {
+  width: calc(var(--cl-size) - 10%);
+  height: calc(var(--cl-size) - 10%);
+  background-color: #ff7261;
+}
+
+.ca {
+  width: calc(var(--cl-size) - 80%);
+  height: calc(var(--cl-size) - 80%);
+  background-color: #a25afb;
+}
