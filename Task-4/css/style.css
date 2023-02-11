@@ -42,6 +42,7 @@ header div {
 }
 #left-side p {
   text-decoration: underline;
+  cursor: pointer;
 }
 #left-side p::first-letter {
   text-transform: uppercase;
@@ -59,6 +60,7 @@ header div {
 #data-bar h3 {
   margin: 10px 8px;
   text-decoration: underline;
+  cursor: pointer;
 }
 #topdiv {
   display: flex;
@@ -96,7 +98,7 @@ header div {
   --cl-size: 300px;
   height: var(--cl-size);
   width: var(--cl-size);
-  margin: 0 30px;
+  margin: 0 54.3px;
 }
 .a {
   width: calc(var(--cl-size) - 30%);
@@ -117,4 +119,53 @@ header div {
   width: calc(var(--cl-size) - 80%);
   height: calc(var(--cl-size) - 80%);
   background-color: #a25afb;
+}
+.chart {
+  float: left;
+  --bar-mr: 32px;
+}
+.bartop {
+  display: flex;
+  position: relative;
+  width: 250px;
+  height: 240px;
+}
+.Bar {
+  width: 13px;
+  position: absolute;
+  bottom: 0;
+}
+.B1 {
+  height: 100%;
+  background-color: #0ace82;
+}
+.B2 {
+  height: 50%;
+  background-color: #ff7261;
+  margin-left: calc(var(--bar-mr) * 1);
+}
+.B3 {
+  height: 60%;
+  background-color: #a25afb;
+  margin-left: calc(var(--bar-mr) * 2);
+}
+.B4 {
+  height: 45%;
+  background-color: #1abcfe;
+  margin-left: calc(var(--bar-mr) * 3);
+}
+.B5 {
+  height: 75%;
+  background-color: #625c5c;
+  margin-left: calc(var(--bar-mr) * 4);
+}
+.B6 {
+  height: 45%;
+  background-color: #ff7261;
+  margin-left: calc(var(--bar-mr) * 5);
+}
+.barbottom {
+  width: 100%;
+  height: 10px;
+  background-color: #625c5c;
 }
