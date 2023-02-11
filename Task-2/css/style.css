@@ -10,39 +10,32 @@ header {
   justify-content: space-between;
   border-bottom: 1px solid #000000;
 }
-
 header div img {
   --imasize: 70px;
   width: var(--imasize);
   height: calc(var(--imasize) / 2);
 }
-
 header div {
   display: flex;
   justify-items: center;
   align-items: center;
 }
-
 #logo,
 #logo-title {
   margin: 5px 5px;
 }
-
 #nav h3 {
   margin: auto 10px;
 }
-
 #main-body {
   width: calc(100% - 25px);
   height: calc((100vh - 9.1vh) - 24px);
   padding: 12px;
 }
-
 #main-body div {
   width: 100%;
   height: calc((100% / 2) - 6px);
 }
-
 #top-div {
   margin-bottom: 12px;
   background-color: #d2d9e9;
@@ -50,7 +43,6 @@ header div {
   align-items: center;
   justify-content: space-between;
 }
-
 .rows {
   width: 30% !important;
   height: 50% !important;
@@ -58,13 +50,11 @@ header div {
   margin: 30px;
   padding: 20px;
 }
-
 #bottom-div {
   display: flex;
   align-items: center;
   background-color: #d2d9e9;
 }
-
 .nano {
   height: calc(100% - 40px) !important;
   width: calc(100% - 40px) !important;

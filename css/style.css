@@ -2,7 +2,6 @@
 h2 {
   font-family: "Beau Rivage", cursive;
 }
-
 body {
   margin: 0;
   padding: 0;
@@ -23,7 +22,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 @media (max-width: 500px) {
   #con {
     width: 350px;
@@ -38,7 +36,6 @@ body {
     font-size: 1em;
   }
 }
-
 .btn {
   width: 120px;
   height: 120px;
@@ -53,12 +50,10 @@ body {
   align-items: center;
   margin: 10px;
 }
-
 a {
   text-decoration: none !important;
   color: #000000 !important;
 }
-
 .btn {
   position: relative;
   border: none;
@@ -68,11 +63,9 @@ a {
   outline: none;
   cursor: pointer;
 }
-
 .btn::-moz-focus-inner {
   border: none;
 }
-
 .btn::before {
   content: "";
   position: absolute;
@@ -83,7 +76,6 @@ a {
   opacity: 0;
   transition: opacity 0.2s;
 }
-
 .btn::after {
   content: "";
   position: absolute;
@@ -98,11 +90,9 @@ a {
   transform: translate(-50%, -50%) scale(1);
   transition: opacity 1s, transform 0.5s;
 }
-
 .btn:focus::before {
   opacity: 0.24;
 }
-
 .btn:active::after {
   opacity: 0.32;
   transform: translate(-50%, -50%) scale(0);

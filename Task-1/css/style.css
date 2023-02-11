@@ -3,7 +3,6 @@ body {
   padding: 0;
   background-color: #342022;
 }
-
 header {
   width: calc(100vw - 2.4vw);
   background-color: #965ead;
@@ -11,7 +10,6 @@ header {
   display: flex;
   justify-content: space-between;
 }
-
 .iconandtitle {
   display: flex;
   flex-direction: row;
@@ -20,54 +18,44 @@ header {
   padding: 1vh 0;
   color: #fcfefa;
 }
-
 .iconandtitle i {
   font-size: 2.8em;
   margin: 0.7vh 0.9vw;
 }
-
 .iconandtitle h1 {
   font-family: "Pacifico", cursive;
   margin: 5px 0 0 0;
 }
-
 #body {
   padding: 2vh 1vw;
   font-family: "Poppins", sans-serif;
 }
-
 #topbox {
   background-color: #d1d8e8;
   padding: 1em 1em;
 }
-
 #body p {
   font-size: 1.575em;
 }
-
 #body h1 {
   margin-top: 0.4em;
   text-decoration: underline;
 }
-
 #bottombox {
   display: flex;
   padding: 0.855em 0;
 }
-
 #bottombox div {
   background-color: #d1d8e8;
   margin: 0 0.6em;
   padding: 1em;
 }
-
 #nav {
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Poppins", sans-serif;
 }
-
 #nav p {
   margin: auto 0.6em;
   font-size: 1.5em;
